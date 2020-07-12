@@ -1,0 +1,14 @@
+<div class="holder">
+    <h1>Welcome</h1>
+</div>
+
+
+<div class="card card-block">
+    <button id="indiv" class="btn btn-success" [routerLink]="['company']" (click) = "onSelectedCompany(item.objectID)" *ngFor="let item of data1.default">{{item.company_name}}</button>
+</div>
+
+ <p>Select the company you want to view</p>
+
+ 
+
+
