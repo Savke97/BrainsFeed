@@ -120,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "BrainsFeed"
+    }
+  },
+  "defaultProject": "BrainsFeed",
+  "cli": {
+    "analytics": "c6d71af5-aa5e-4269-b034-b220c95c101d"
+  }
 }
